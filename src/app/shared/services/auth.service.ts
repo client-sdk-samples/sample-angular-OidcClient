@@ -3,7 +3,7 @@ import { Http, Headers, RequestOptions, Response } from '@angular/http';
 import { Observable } from 'rxjs/Rx';
 
 import { UserManager, Log, MetadataService, User } from 'oidc-client';
-import { environment } from '../../';
+import { environment } from '../../../environments/environment';
 
 const settings: any = {
   authority: 'http://id.vnext.local',
